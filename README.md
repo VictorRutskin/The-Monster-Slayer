@@ -15,7 +15,7 @@ problems, consider not playing.
 3.programmed to run on a screen of at least 1080:1920 size (regular)
 smaller size might break the game
 
-4. the game is made to be hard to complete on porpuse, if you have hard 
+4.the game is made to be hard to complete on porpuse, if you have hard 
 time checking the game you can use the 'M' button (it skips levels),
 to use it you need to click m, and before you get to the desired level
 walk to it and do not use 'M',
@@ -24,9 +24,9 @@ into your desired level, if you use this cheat again it will crash the
 game, also it will bug the sound, only use this feature if you have a 
 really hard time!
 
-5. game has 6 endings, will you find them all?
+5.game has 6 endings, will you find them all?
 
-6. SOUND ALRERT, the game is very noisy!!
+6.SOUND ALRERT, the game is very noisy!!
 
 ## Requirements
 screen size of at least 1920×1080, smaller than this might break the game (yes i know... as i said this was my first project :sweat_smile:	)
