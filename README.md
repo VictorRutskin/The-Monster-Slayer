@@ -7,15 +7,15 @@ I am still proud of the result of this game as a first project!
 I do not own any art and music and sound effects that were used in this project.
 
 ## Before Running
-1.The game contains jumpscares and is indeed scary, if you have health 
+- The game contains jumpscares and is indeed scary, if you have health 
 problems, consider not playing.
 
-2.For the best experience use headphones and play at night, alone :)
+- For the best experience use headphones and play at night, alone :)
 
-3.programmed to run on a screen of at least 1080:1920 size (regular)
+- Programmed to run on a screen of at least 1080:1920 size (regular)
 smaller size might break the game
 
-4.the game is made to be hard to complete on porpuse, if you have hard 
+- The game is made to be hard to complete on porpuse, if you have hard 
 time checking the game you can use the 'M' button (it skips levels),
 to use it you need to click m, and before you get to the desired level
 walk to it and do not use 'M',
@@ -24,9 +24,9 @@ into your desired level, if you use this cheat again it will crash the
 game, also it will bug the sound, only use this feature if you have a 
 really hard time!
 
-5.game has 6 endings, will you find them all?
+- Game has 6 endings, will you find them all?
 
-6.SOUND ALRERT, the game is very noisy!!
+- SOUND ALRERT, the game is very noisy!!
 
 ## Requirements
 screen size of at least 1920×1080, smaller than this might break the game (yes i know... as i said this was my first project :sweat_smile:	)
