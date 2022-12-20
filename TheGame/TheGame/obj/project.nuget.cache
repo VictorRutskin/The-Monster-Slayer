@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CEGZYpVr04hU9ACNeyFAtpad+GGiLOFXygYHQX/1DTq2lVz6lOXWZanNUszKah6bEHPyYZtJjiX1JRk4i5dNZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Victor\\OneDrive\\Desktop\\TheMonsterSlaterBuild5\\Game Code For Review\\TheGame\\TheGame\\TheMonsterSlayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Victor\\.nuget\\packages\\documentformat.openxml\\2.17.1\\documentformat.openxml.2.17.1.nupkg.sha512",
+    "C:\\Users\\Victor\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512",
+    "C:\\Users\\Victor\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,229 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>PNG\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\**" />
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="bin\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="bin\**" />
+    <None Remove="obj\**" />
+    <Page Remove="bin\**" />
+    <Page Remove="obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="AmmoBar5.png" />
+    <None Remove="AmmoBar8.png" />
+    <None Remove="Attack1.png" />
+    <None Remove="Boss1Figure.png" />
+    <None Remove="Boss2Static1.png" />
+    <None Remove="Bullet.png" />
+    <None Remove="ButtonExit.png" />
+    <None Remove="ButtonLoad.png" />
+    <None Remove="ButtonPlay.png" />
+    <None Remove="ButtonSave.png" />
+    <None Remove="ButtonSettings.png" />
+    <None Remove="Front1.png" />
+    <None Remove="HpBar3.png" />
+    <None Remove="HpBar5.png" />
+    <None Remove="PlayAgainButton.png" />
+    <None Remove="ReloadEffectPart1.png" />
+    <None Remove="ReloadEffectPart2.png" />
+    <None Remove="StaticBoss3.png" />
+    <None Remove="StaticGun.png" />
+    <None Remove="UMM.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0-windows\PNG\Bars\AmmoBar1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Bars\AmmoBar2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Bars\AmmoBar3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Bars\AmmoBar4.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Bars\AmmoBar5.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Bars\HpBar1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Bars\HpBar2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Bars\HpBar3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Bars\HpBar4.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Bars\HpBar5.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Bright\boxes&amp;container.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Bright\buildings.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Bright\City1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Bright\road&amp;border.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Bright\Sky.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Bright\wall1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Bright\wall2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Bright\wheels&amp;hydrant.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Pale\boxes&amp;container.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Pale\buildings.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Pale\City1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Pale\road&amp;border.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Pale\sky.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Pale\wall1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Pale\wall2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City1\Pale\wheels&amp;hydrant.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Bright\back.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Bright\City2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Bright\houses1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Bright\houses3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Bright\minishop&amp;callbox.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Bright\road&amp;lamps.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Bright\Sky.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Pale\Back_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Pale\City2_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Pale\houses1_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Pale\Houses3_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Pale\minishop&amp;callbox_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Pale\road&amp;lamps_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City2\Pale\Sky_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Bright\City3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Bright\crosswalk.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Bright\houded2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Bright\houses1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Bright\houses3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Bright\road.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Bright\sky.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Pale\City3_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Pale\crosswalk_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Pale\houded2_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Pale\houses1_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Pale\houses3_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Pale\road_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City3\Pale\sky_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Bright\City4.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Bright\fountain&amp;bush.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Bright\houses.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Bright\houses1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Bright\houses2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Bright\road.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Bright\Sky.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Bright\umbrella&amp;policebox.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Pale\City4_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Pale\fountain&amp;bush_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Pale\houses1_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Pale\houses2_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Pale\houses_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Pale\road_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Pale\Sky_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\City4\Pale\umbrella&amp;policebox_pale.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Gun\Blank.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Gun\GunAnimation.gif" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Gun\StaticGun.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\Front1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\Front2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\Left1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\Left2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\LeftWalk1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\LeftWalk2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\LeftWalk3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\LeftWalk4.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\Right1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\Right2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\RightWalk1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\RightWalk2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\RightWalk3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\MainCharacterA\RightWalk4.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Bright\clouds1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Bright\clouds2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Bright\fence.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Bright\ground&amp;houses.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Bright\ground&amp;houses2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Bright\ground&amp;houses_bg.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Bright\postapocalypse1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Bright\road.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Pale\clouds1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Pale\clouds2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Pale\fence.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Pale\ground&amp;houses.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Pale\ground&amp;houses2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Pale\ground&amp;houses_bg.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Pale\postapocalypse1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce1\Pale\road.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Bright\bird1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Bright\bird2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Bright\bird3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Bright\car_trees_etc.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Bright\fence.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Bright\houses&amp;trees_bg.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Bright\houses.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Bright\postapocalypse2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Bright\road.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Bright\sky.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Pale\bird1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Pale\bird2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Pale\bird3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Pale\car_trees_etc.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Pale\fence.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Pale\houses&amp;trees_bg.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Pale\houses.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Pale\postapocalypse2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Pale\road.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce2\Pale\sky.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Bright\moon.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Bright\postapocalypse3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Bright\sand&amp;objects1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Bright\sand&amp;objects2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Bright\sand&amp;objects3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Bright\sand.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Bright\sand_back.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Bright\sky.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Pale\moon.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Pale\postapocalypse3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Pale\sand&amp;objects1.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Pale\sand&amp;objects2.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Pale\sand&amp;objects3.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Pale\sand.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Pale\sand_back.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce3\Pale\sky.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Bright\bg.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Bright\columns&amp;floor.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Bright\floor&amp;underfloor.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Bright\infopost&amp;wires.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Bright\postapocalypse4.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Bright\rail&amp;wall.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Bright\train.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Bright\wires.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Pale\bg.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Pale\columns&amp;floor.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Pale\infopost&amp;wires.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Pale\postapocalypse4.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Pale\rail&amp;wall.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Pale\train.png" />
+    <Content Include="bin\Debug\net6.0-windows\PNG\Postapocalypce4\Pale\wires.png" />
+    <Content Include="PNG\Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.17.1" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="AmmoBar8.png" />
+    <Resource Include="Attack1.png" />
+    <Resource Include="Boss1Figure.png" />
+    <Resource Include="Boss2Static1.png" />
+    <Resource Include="Bullet.png" />
+    <Resource Include="ButtonExit.png" />
+    <Resource Include="ButtonLoad.png" />
+    <Resource Include="ButtonPlay.png" />
+    <Resource Include="ButtonSave.png" />
+    <Resource Include="ButtonSettings.png" />
+    <Resource Include="Front1.png" />
+    <Resource Include="HpBar3.png" />
+    <Resource Include="PlayAgainButton.png" />
+    <Resource Include="ReloadEffectPart1.png" />
+    <Resource Include="ReloadEffectPart2.png" />
+    <Resource Include="StaticBoss3.png" />
+    <Resource Include="StaticGun.png" />
+    <Resource Include="UMM.png" />
+  </ItemGroup>
+
+</Project>

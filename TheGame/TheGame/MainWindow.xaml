@@ -1,0 +1,386 @@
+﻿<Window x:Class="TheMonsterSlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"        
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TheMonsterSlayer" 
+        mc:Ignorable="d"
+        Title="The Monster Slayer" Height="1080" Width="1920"   MaxWidth="1920" MaxHeight="1080"  MinWidth="1920" MinHeight="1080"
+        >
+
+
+
+    <Canvas Name="CANVAS" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp">
+
+        <Canvas.Background>
+            <ImageBrush/>
+        </Canvas.Background>
+        <Image x:Name="MainScreenPictureGif"  Height="1700" Width="2300"  Canvas.Top="0" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="0" />
+        <Image x:Name="GlitchScreen"  Height="1700" Width="2300"  Canvas.Top="0" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="0" />
+        <Rectangle x:Name="MainCharacter" Height="538" Canvas.Left="186" Canvas.Top="420" Width="322" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" KeyDown="Rectangle_KeyDown" TouchDown="MainCharacter_TouchDown">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Front1.png"/>
+            </Rectangle.Fill>
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.348"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-1.494"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image x:Name="GunAnimation"  Height="88" Width="120" Canvas.Left="63" Canvas.Top="676" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="0" />
+        <Image x:Name="ReaperEnemy"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+        <Image x:Name="ReaperEnemy2"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+        <Image x:Name="ReaperEnemy3"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="ReaperEnemy4"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="ReaperEnemy5"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="ReaperEnemy6"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="ReaperEnemy7"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="ReaperEnemy8"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="ReaperEnemy9"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="ReaperEnemy10"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="ReaperEnemy11"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="ReaperEnemy12"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="ReaperEnemy13"  Height="225" Width="400" Canvas.Left="1920" Canvas.Top="760" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="100" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Rectangle x:Name="StaticGun" Height="37" Canvas.Left="56" Canvas.Top="693" Width="80" HorizontalAlignment="Left" VerticalAlignment="Center" Opacity="0">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/StaticGun.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="100" Canvas.Left="1298" Canvas.Top="254" Width="100">
+            <Rectangle.Fill>
+                <ImageBrush/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="AmmoBarXaml" Height="148" Canvas.Left="1510" Canvas.Top="71" Width="400" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="AmmoBar8.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="HpBarXaml" Height="149" Canvas.Left="1523" Width="387" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Top="-40">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/HpBar3.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="ReloadEffectPart1" Height="60" Canvas.Left="853" Canvas.Top="285" Width="70" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Opacity="0">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.004"/>
+                    <RotateTransform Angle="-0.251"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <ImageBrush  ImageSource="/ReloadEffectPart1.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="ReloadEffectPart2" Height="46" Canvas.Left="865" Canvas.Top="294" Width="46" HorizontalAlignment="Center" VerticalAlignment="Top" Opacity="0">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/ReloadEffectPart2.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="TheBullet" Height="10" Canvas.Left="446" Canvas.Top="302" Width="30" HorizontalAlignment="Center" VerticalAlignment="Top" Opacity="0">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Bullet.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle x:Name="Boss1Xaml" Height="226" Canvas.Left="1691" Canvas.Top="726" Width="224" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="0">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Boss1Figure.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle x:Name="Boss2Xaml" Height="226" Canvas.Left="1691" Canvas.Top="726" Width="224" HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="0">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Boss2Static1.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle x:Name="Boss3Xaml" Height="226" Canvas.Left="1691" Canvas.Top="726" Width="224" HorizontalAlignment="Center" VerticalAlignment="Top" Opacity="0">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/StaticBoss3.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="MainScreenPicture" Height="1150" Stroke="Black" Canvas.Top="-14" Width="1920" Opacity="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Rectangle x:Name="DarknessScreen" Height="1150" Stroke="Black" Canvas.Top="-14" Width="1920" Opacity="0" HorizontalAlignment="Center" VerticalAlignment="Center" Fill="Black"/>
+        <Rectangle x:Name="MenuScreen" Height="1150" Stroke="Black" Canvas.Top="-14" Width="1920" Opacity="0" HorizontalAlignment="Center" VerticalAlignment="Center" Fill="Black"/>
+        <Rectangle x:Name="TextBarXaml" Height="150" Canvas.Left="96" Canvas.Top="207" Width="1707" HorizontalAlignment="Center" VerticalAlignment="Top" Opacity="0"/>
+        <Image x:Name="DeadMonsterAnimation"  Height="226" Width="2000" Canvas.Left="650" Canvas.Top="726" HorizontalAlignment="Center" VerticalAlignment="Top" Opacity="0" RenderTransformOrigin="0.498,0.503" />
+        <Button x:Name="ExitButton" Content="Button" Canvas.Left="760" Canvas.Top="670" Height="169" Width="400" FontSize="0.01" HorizontalAlignment="Center" VerticalAlignment="Top" Click="ExitButton_Click" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="Green"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="0">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonExit.png"/>
+            </Button.Background>
+        </Button>
+        <!--<Button x:Name="SettingsButton" Canvas.Left="760" Canvas.Top="447" Height="170" Width="400" FontSize="0.01" HorizontalAlignment="Center" VerticalAlignment="Top" Click="SettingsButton_Click" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="Green"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="0">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonSettings.png"/>
+            </Button.Background>
+            <Button Content="Button"/>
+        </Button>-->
+        <Button x:Name="PlayButton" Content="Button" Canvas.Left="760" Canvas.Top="232" Height="170" Width="400" FontSize="0.01" HorizontalAlignment="Center" VerticalAlignment="Top" Click="PlayButton_Click" BorderBrush="{x:Null}" Foreground="{x:Null}"  >
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="Green"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="0">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+
+                <ImageBrush ImageSource="/ButtonPlay.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="PlayAgainButton" Content="Button" Canvas.Left="760" Canvas.Top="447" Height="170" Width="400" FontSize="0.01" HorizontalAlignment="Center" VerticalAlignment="Top" Click="PlayAgainButton_Click" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0" IsEnabled="False"  >
+            <Button.Background>
+                <ImageBrush ImageSource="/PlayAgainButton.png"/>
+            </Button.Background>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="Green"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="0">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Button x:Name="SaveButton" Content="Button" Height="74" Width="202" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Left" Canvas.Top="29" VerticalAlignment="Top" Canvas.Left="10" Click="SaveButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonSave.png"/>
+            </Button.Background>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="Green"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="0">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Button x:Name="LoadButton" Content="Button" Canvas.Left="212" Canvas.Top="29" Height="74" Width="202" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center" Click="LoadButton_Click" >
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonLoad.png"/>
+            </Button.Background>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="Green"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="0">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
+
+
+    </Canvas>
+
+
+
+</Window>

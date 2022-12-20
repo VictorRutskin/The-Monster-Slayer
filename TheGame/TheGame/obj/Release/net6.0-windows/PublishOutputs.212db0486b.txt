@@ -1,0 +1,7 @@
+C:\Users\Victor\OneDrive\Desktop\Build2\TheMonsterSlayer.exe
+C:\Users\Victor\OneDrive\Desktop\Build2\TheMonsterSlayer.dll
+C:\Users\Victor\OneDrive\Desktop\Build2\TheMonsterSlayer.deps.json
+C:\Users\Victor\OneDrive\Desktop\Build2\TheMonsterSlayer.runtimeconfig.json
+C:\Users\Victor\OneDrive\Desktop\Build2\TheMonsterSlayer.pdb
+C:\Users\Victor\OneDrive\Desktop\Build2\DocumentFormat.OpenXml.dll
+C:\Users\Victor\OneDrive\Desktop\Build2\WpfAnimatedGif.dll
