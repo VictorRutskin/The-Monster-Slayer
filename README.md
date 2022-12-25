@@ -43,3 +43,6 @@ there he has 2 options, think that its an endless loop and exit the game,
 or keep trying to go to the next level for 5 times and then reach the 
 true ending, which is an illusion of a perfect world,when in reality he 
 killed everyone who tried to help him.
+
+![alt text](https://github.com/lashaka/The-Monster-Slayer/blob/main/TheMonsterSlayerExample.png)
+
