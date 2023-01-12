@@ -23,3 +23,28 @@ D:\Projects\Visual studio\Projects of mine\Game\TheGame\TheGame\obj\Release\net6
 D:\Projects\Visual studio\Projects of mine\Game\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer.pdb
 D:\Projects\Visual studio\Projects of mine\Game\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer.genruntimeconfig.cache
 D:\Projects\Visual studio\Projects of mine\Game\TheGame\TheGame\obj\Release\net6.0-windows\ref\TheMonsterSlayer.dll
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\bin\Release\net6.0-windows\TheMonsterSlayer.exe
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\bin\Release\net6.0-windows\TheMonsterSlayer.deps.json
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\bin\Release\net6.0-windows\TheMonsterSlayer.runtimeconfig.json
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\bin\Release\net6.0-windows\TheMonsterSlayer.dll
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\bin\Release\net6.0-windows\TheMonsterSlayer.pdb
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\bin\Release\net6.0-windows\DocumentFormat.OpenXml.dll
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\bin\Release\net6.0-windows\WpfAnimatedGif.dll
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer.csproj.AssemblyReference.cache
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\MainWindow.g.cs
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\App.g.cs
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer_Content.g.cs
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer_MarkupCompile.cache
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer_MarkupCompile.lref
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\MainWindow.baml
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer.g.resources
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer.AssemblyInfoInputs.cache
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer.AssemblyInfo.cs
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer.csproj.CoreCompileInputs.cache
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer.csproj.CopyComplete
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer.dll
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\refint\TheMonsterSlayer.dll
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer.pdb
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\TheMonsterSlayer.genruntimeconfig.cache
+D:\Projects\Git\My Git\The-Monster-Slayer\TheGame\TheGame\obj\Release\net6.0-windows\ref\TheMonsterSlayer.dll

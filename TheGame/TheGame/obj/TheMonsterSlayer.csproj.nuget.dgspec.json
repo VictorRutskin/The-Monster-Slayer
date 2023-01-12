@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victor\\OneDrive\\Desktop\\TheMonsterSlaterBuild5\\Game Code For Review\\TheGame\\TheGame\\TheMonsterSlayer.csproj": {}
+    "D:\\Projects\\Git\\My Git\\The-Monster-Slayer\\TheGame\\TheGame\\TheMonsterSlayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victor\\OneDrive\\Desktop\\TheMonsterSlaterBuild5\\Game Code For Review\\TheGame\\TheGame\\TheMonsterSlayer.csproj": {
+    "D:\\Projects\\Git\\My Git\\The-Monster-Slayer\\TheGame\\TheGame\\TheMonsterSlayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor\\OneDrive\\Desktop\\TheMonsterSlaterBuild5\\Game Code For Review\\TheGame\\TheGame\\TheMonsterSlayer.csproj",
+        "projectUniqueName": "D:\\Projects\\Git\\My Git\\The-Monster-Slayer\\TheGame\\TheGame\\TheMonsterSlayer.csproj",
         "projectName": "TheMonsterSlayer",
-        "projectPath": "C:\\Users\\Victor\\OneDrive\\Desktop\\TheMonsterSlaterBuild5\\Game Code For Review\\TheGame\\TheGame\\TheMonsterSlayer.csproj",
+        "projectPath": "D:\\Projects\\Git\\My Git\\The-Monster-Slayer\\TheGame\\TheGame\\TheMonsterSlayer.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor\\OneDrive\\Desktop\\TheMonsterSlaterBuild5\\Game Code For Review\\TheGame\\TheGame\\obj\\",
+        "outputPath": "D:\\Projects\\Git\\My Git\\The-Monster-Slayer\\TheGame\\TheGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
