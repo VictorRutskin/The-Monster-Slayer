@@ -44,5 +44,5 @@ or keep trying to go to the next level for 5 times and then reach the
 true ending, which is an illusion of a perfect world,when in reality he 
 killed everyone who tried to help him.
 
-![alt text](https://github.com/lashaka/The-Monster-Slayer/blob/main/TheMonsterSlayerExample.png)
+![alt text](https://github.com/Lashaka/Lashaka/blob/main/Images%20to%20present%20projects/The%20Monster%20Slayer%20Images/TheMonsterSlayerExample.png)
 
