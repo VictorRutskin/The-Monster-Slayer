@@ -1,5 +1,5 @@
 # The Monster Slayer
-My first project! before i actually learned OOC programming and had no experience.
+My first project! before i actually learned OOP programming and had no experience.
 So code looks messy and etc..
 I am still proud of the result of this game as a first project!
  
